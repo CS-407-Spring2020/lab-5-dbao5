@@ -34,7 +34,7 @@ public class Main2Activity extends AppCompatActivity {
         textView2 = (TextView)findViewById(R.id.welcome_mes);
         Intent intent = getIntent();
         String str = intent.getStringExtra("Welcome");
-        textView2.setText("Welcome "+str );
+        textView2.setText("Welcome "+str + "!");
 
         //get SQLiteDatabase instance
         Context context = getApplicationContext();
